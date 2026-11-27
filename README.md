@@ -12,11 +12,11 @@ A family of free, open-source tools that help small businesses check what lender
 **[TaxKit](https://github.com/matveygreschner/taxkit)**
 A U.S. federal tax engine I built as the final project for my Federal Income Tax course. It is tested against every worked example in the course and generates a formula-driven Excel and Google Sheets workbook that matches the code cell for cell. It also ships as four Claude skills for tax calculations, business tax planning, estimated tax payments and tax memos.
 
-**[AI trading agent](https://github.com/matveygreschner/ai-trading-agent)**
-A Claude agent that trades a small live Robinhood account through Robinhood's MCP server. It researches public filings and news, keeps a notebook of its reasoning and trades inside hard limits of $50 per order and $100 per day. Every order goes through a gate in code that the model cannot change.
-
 **[NotBefore](https://github.com/matveygreschner/notbefore-app)**
 A startup I co-founded. It shows ITF tennis players their court, their place in the order of play and when they will start, with live scores in six languages. I ran into the problem myself on tour. The web beta is live and an iOS app is in progress. We are building a model that predicts how long each match ahead will last, so the start time gets more accurate as the day goes on. The code and the model are private for now. I wrote up [how I design the teams of agents](https://github.com/matveygreschner/notbefore-app/blob/main/agent-teams.md) behind it and my other projects.
+
+**[AI trading agent](https://github.com/matveygreschner/ai-trading-agent)**
+A Claude agent that trades a small live Robinhood account through Robinhood's MCP server. It researches public filings and news, keeps a notebook of its reasoning and trades inside hard limits of $50 per order and $100 per day. Every order goes through a gate in code that the model cannot change.
 
 **KV cache reliability research**
 I collaborate with students at Oregon State University on a study of memory errors in compressed language model KV caches. My part is compiling data center memory error evidence and building a cost-benefit analysis of compression versus protection.
